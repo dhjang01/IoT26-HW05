@@ -1,0 +1,26 @@
+services:
+  homeassistant:
+    container_name: homeassistant
+    image: ghcr.io/home-assistant/home-assistant:stable
+    network_mode: host
+    environment:
+      - TZ=Asia/Seoul
+    volumes:
+      - /home/aiot/homeassistant/config:/config
+    rest_command:
+  led1_on:
+    url: "http://127.0.0.1:5000/led/1/on"
+    method: POST
+
+  led1_off:
+    url: "http://127.0.0.1:5000/led/1/off"
+    method: POST
+
+  led2_on:
+    url: "http://127.0.0.1:5000/led/2/on"
+    method: POST
+
+  led2_off:
+    url: "http://127.0.0.1:5000/led/2/off"
+    method: POST  
+    restart: unless-stopped
