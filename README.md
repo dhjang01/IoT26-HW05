@@ -186,22 +186,6 @@ services:
 - `/home/aiot/homeassistant/config:/config`: 설정 파일을 호스트에 저장
 - `restart: unless-stopped`: 재부팅 후에도 자동 실행
 
-## 제출용 캡처 목록
-
-1. `docker ps`에서 `homeassistant` 컨테이너가 실행 중인 화면
-2. Home Assistant 초기 접속 화면
-3. Home Assistant Dashboard 화면
-4. `Raspberry Pi Test Switch` Helper 화면
-5. Automation 설정 화면
-6. 스위치를 켰을 때 Persistent Notification이 뜬 화면
-7. 실제 Raspberry Pi가 실행 중인 사진 또는 영상
-
-캡처 파일은 아래 폴더에 저장한다.
-
-```text
-/home/aiot/IoT26-HW05/screenshots
-```
-
 ## Troubleshooting
 
 ### `docker: command not found`
@@ -338,3 +322,11 @@ docker ps
 ```text
 http://172.20.10.2:8123
 ```
+
+결과물
+
+https://github.com/user-attachments/assets/b5736c10-72a5-4238-b0cf-bca4b30d2f8f
+<img width="2252" height="4000" alt="IoT26-HW05-1" src="https://github.com/user-attachments/assets/61abde57-715a-4382-ad54-bd1c1978ff88" />
+<img width="2252" height="4000" alt="IoT26-HW05-2" src="https://github.com/user-attachments/assets/59e20861-ff9c-469d-b947-cd5e040ecf77" />
+
+
