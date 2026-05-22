@@ -325,7 +325,12 @@ http://172.20.10.2:8123
 
 결과물
 
-https://github.com/user-attachments/assets/b5736c10-72a5-4238-b0cf-bca4b30d2f8f
+
+
+https://github.com/user-attachments/assets/def5e825-1f79-4372-ba96-aedaca2b4f18
+
+
+
 <img width="2252" height="4000" alt="IoT26-HW05-1" src="https://github.com/user-attachments/assets/61abde57-715a-4382-ad54-bd1c1978ff88" />
 <img width="2252" height="4000" alt="IoT26-HW05-2" src="https://github.com/user-attachments/assets/59e20861-ff9c-469d-b947-cd5e040ecf77" />
 
